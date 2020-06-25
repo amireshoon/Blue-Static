@@ -1,0 +1,288 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+    font-style: normal;
+}
+
+/* Navigation */
+
+.nav-container {
+    background: #fff;
+    height: 72px;
+    z-index: 500;
+    position: relative;
+}
+
+.wrapper {
+    max-width: auto;
+    margin: 0 auto;
+}
+
+.w-increase {
+    width: 1400px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 72px;
+    margin-top: 20px;
+    margin-right: 60px;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav .logo {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 54px;
+    color: #021718;
+}
+
+.nav-items li {
+    list-style: none;
+    margin-right: 80px;
+}
+
+.nav-items li:nth-last-of-type(1) {
+    margin: 0;
+}
+
+.nav-items li a {
+    color: #021718;
+    font-size: 21px;
+    font-family: "Lato", sans-serif;
+    font-style: Medium;
+    line-height: 25px;
+    line-height: 100%;
+    align-items: left;
+    text-decoration: none;
+    height: 25px;
+}
+
+.nav-items li a:hover {
+    color: #0779E4;
+}
+
+.header-container {
+    background: white;
+    height: calc(100vh - 72px);
+    display: flex;
+    align-items: center;
+}
+
+.header-container2 {
+    background: white;
+    display: flex;
+    align-items: center;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.punder{
+    margin-top: -50px;
+    margin-left: 40px;
+    font-family: "Lato", sans-serif;
+    font-style: Bold;
+    font-size: 48px;
+    max-width: 30px;
+    color: #021718;
+}
+
+.punderp {
+    margin-left: 40px;
+    margin-top: 20px;
+    font-family: "Lato", sans-serif;
+    font-style: Medium;
+    font-size: 21px;
+    max-width: 547px;
+    color: #021718;
+}
+
+.ptopp {
+    margin-left: 40px;
+    margin-top: 70px;
+    font-family: "Lato", sans-serif;
+    font-style: Medium;
+    font-size: 21px;
+    max-width: 547px;
+    color: #021718;
+}
+
+.m16 {
+    margin-top: 16px;
+}
+
+.i-small {
+    width: 465px !important;
+    height: 349px !important;
+    margin-bottom: 40px;
+}
+
+.pro {
+    background: #0779E4;
+    width: 180px;
+    height: 73px;
+}
+
+.ptop {
+    margin-top: -140px;
+    margin-left: 40px;
+    font-family: "Lato", sans-serif;
+    font-style: Bold;
+    font-size: 48px;
+    max-width: 30px;
+    color: #021718;
+}
+
+.social-ic {
+    text-decoration: none;
+    display: flex;
+    margin-left: 50px;
+}
+
+
+.social-ic-items {
+    height: 24px;
+    width: 24px;
+    margin-top: 46px;
+    margin-right: 16px;
+}
+
+header input {
+    border-radius: 14px;
+    width: 383px;
+    height: 59px;
+    background: #eee;
+    padding-left:30px;
+    border: 0;
+    font-size: 21px;
+    margin-left: 40px;
+    margin-top: 50px;
+    padding-right: 30px;
+}
+
+*:focus {
+    outline: none;
+    background: #dddddd;
+}
+
+a:focus {
+    color: #0779E4;
+}
+
+.hero-image img {
+    height: 472px;
+    width: 628px;
+}
+
+.recent-posts {
+    margin-left: 40px;
+    margin-right: 40px;
+    
+}
+
+.posts-prev {
+    border:1px solid #BFBFBF;
+    width: 276px;
+    border-radius: 4px;
+    display: inline-block;
+    margin-right: 16px;
+}
+
+.posts-prev:nth-last-of-type(0) {
+    margin-right: 0px;
+}
+
+* a{
+    text-decoration: none;
+    color: #021718;
+}
+
+* a:hover {
+    color: #0779E4;
+}
+
+.vr-text {
+    writing-mode: tb-rl;
+}
+
+.bblue {
+    background-color: #0779E4;
+}
+
+.ibtn {
+    width: 10px;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.posts-prev p {
+    width: 274px;
+    height: 150px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-top: 10px;
+    margin-bottom: 16px;
+    font-size: 18px;
+    white-space: pre-line;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+* img {
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+* { 
+    -webkit-user-select: text;
+    -khtml-user-select: text;
+    -moz-user-select: text;
+    -o-user-select: text;
+    user-select: text;
+}
+
+.posts-prev h2 {
+    width: 274px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-top: 16px;
+    font-size: 24px;
+    white-space: pre-line;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.r-m {
+    float: right;
+    margin-top: 16px;
+    margin-right: 60px;
+    font-weight: bold;
+    color: #0779E4;
+}
+
+.posts-prev img {
+    width: 274px;
+    height: 196px;
+}
+
+/* Hidden items */
+
+.search-box {
+    display: none;
+}
