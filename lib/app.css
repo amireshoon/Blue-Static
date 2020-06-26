@@ -1,3 +1,15 @@
+@font-face{
+    font-family:LatoBold; 
+    font-style: Bold;
+    src: url(../assets/fonts/Lato/Lato-Bold.ttf)
+}
+ 
+@font-face{
+    font-family:Lato; 
+    font-style: normal;
+    src: url(../assets/fonts/Lato/Lato-Regular.ttf)
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -272,13 +284,142 @@ a:focus {
     float: right;
     margin-top: 16px;
     margin-right: 60px;
+    margin-bottom: 40px;
     font-weight: bold;
     color: #0779E4;
+}
+
+.edu {
+    width: 503px;
+    height: 377px;
+    left: 853px;
+    top: 1989px;
+    margin-left: 140px;
+}
+
+.blue-bl {
+    width: 447px;
+    height: 34px;
+    left: 132px;
+    top: 2491px;
+    background:#0779E4;
+}
+
+.edu-holder {
+    width: 532px;
+    display: inline-block;
+    margin-right: 80px;
+}
+
+.edu-holder:nth-last-child(0) {
+    margin-right: 0px;
+}
+
+.from-edu {
+    display: flex;
+}
+
+
+.edu-title {
+    font-family: Lato;
+    font-weight: 900;
+    font-size: 80px;
+    line-height: 96px;
+    
+}
+
+.edu-mb {
+    margin-bottom: -30px;
+}
+
+.edu-desc {
+    margin-top: 30px;
+    font-size: 26px;
+    font-family: Lato;
+    margin-left: 25px;
+}
+
+.edu-desc-ml {
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+.edu-container {
+    display: flex;
+}
+
+.edu-mt {
+    margin-top: -30px;
+    margin-left: 40px;
 }
 
 .posts-prev img {
     width: 274px;
     height: 196px;
+}
+
+.mt16 {
+    margin-top: 16px;
+}
+
+.mt110 {
+    margin-top: 110px;
+}
+
+.till-edu {
+    display: flex;
+}
+
+.journey-i {
+    width: 581px;
+    height: 436px;
+    left: 798px;
+    top: 2844px;
+    margin-left: 180px;
+}
+
+.jou {
+    line-height: 30px !important;
+}
+
+.footer {
+    margin-top: 125px;
+    width: auto;
+    height: 266px;
+    background-color: #F5F5F5;
+    display: flex;
+    align-items: center;
+}
+
+.doodle {
+    display: flex;
+    align-items: center;
+    margin-left: 154px;
+}
+
+.p1 {
+    width: 310px;
+    margin-left: 153px;
+}
+
+.p2 {
+    width: 310px;
+    margin-left: 47px;
+}
+
+.doodle-p {
+    width: 154px;
+    font-size: 20px;
+}
+
+.blue-in {
+    height: 266px;
+    width: 34px;
+    background-color: #0779E4;
+}
+
+.active-link {
+    color: #0779E4;
 }
 
 /* Hidden items */
